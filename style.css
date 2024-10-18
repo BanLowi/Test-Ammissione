@@ -1,0 +1,106 @@
+/* Font */
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* Sfondo */
+body{
+  background-image: url(Images/background.jpg);
+  background-size: cover;
+}
+/* Sfondo layer nero */
+body > div{
+  background-color: rgba(0, 0, 0, 0.3);
+  margin: 100px 500px;
+  border-radius: 25px;
+  padding: 100px 50px;
+}
+/* Logo */
+img{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+/* Slogan */
+header > h1{
+  text-align: center;
+  font-weight: normal;
+  font-size: 50px;
+  color: lime;
+  margin-bottom: 10px;
+}
+/* Sfondo pulsantiera */
+nav{
+  padding: 20px 20px;
+  background-color: lime;
+  text-align: center;
+}
+/* Resize pulsanti */
+nav > button{
+  width: 50&;
+  height: auto;
+  font-size: 25px;
+}
+/* Box monopattini */
+main > div{
+  display: block;
+  width: 75%;
+  height: auto;
+  color: white;
+  margin-top: 30px;
+}
+/* Username monopattini */
+h2 {
+  font-weight: bold;
+  margin-left: 3px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+/* Checkbox */
+input
+{
+  margin: auto;
+  padding-bottom: 5px;
+}
+/* Checkbox + Username allineamento */
+h2, input{
+  display: inline-block;
+}
+/* Carattere speciale prima di location */
+div > p.location:before{
+  content: '\21A6';
+  padding-right: 5px;
+}
+/* Username resize */
+.username{
+  font-size: 30px;
+}
+/* location spacing */
+.location{
+  margin: 0 0;
+}
+
+.bar{
+  border-radius: 4px;
+  margin-top: 3px;
+}
+
+.charge1{
+  height: 20px;
+  width: 60%;
+  background-color: #f5b453;
+}
+
+.charge2{
+  height: 20px;
+  width: 90%;
+  background-color: #1DC31E;
+}
+
+.charge3{
+  height: 20px;
+  width: 40%;
+  background-color: #be4141;
+}
